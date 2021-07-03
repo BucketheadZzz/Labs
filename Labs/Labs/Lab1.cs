@@ -5,6 +5,13 @@ namespace Labs
     //Waiting for correct input, exceptions/edge cases are not handled :)
     public class Lab1
     {
+
+        /*
+         *1. Написать программу «Анкета». Последовательно задаются вопросы (имя, фамилия, возраст, рост, вес). В результате вся информация выводится в одну строчку:
+           а) используя склеивание;
+           б) используя форматированный вывод;
+           в) используя вывод со знаком $.
+         */
         public void TaskOne()
         {
             Console.WriteLine("Enter your first name");
@@ -28,7 +35,9 @@ namespace Labs
             Console.WriteLine($"String interpolation. First name: {firstName} Last name: {lastName} Age: {age} Height: {height} Weight: {weight}");
         }
 
-
+        /*
+         * 2. Ввести вес и рост человека. Рассчитать и вывести индекс массы тела (ИМТ) по формуле I=m/(h*h); где m — масса тела в килограммах, h — рост в метрах.
+         */
         public void TaskTwo()
         {
             Console.WriteLine("Enter your height");
@@ -42,6 +51,12 @@ namespace Labs
             Console.WriteLine($"BMI: {result}");
         }
 
+
+        /*
+         * 3. 
+           а) Написать программу, которая подсчитывает расстояние между точками с координатами x1, y1 и x2,y2 по формуле r=Math.Sqrt(Math.Pow(x2-x1,2)+Math.Pow(y2-y1,2). Вывести результат, используя спецификатор формата .2f (с двумя знаками после запятой);
+           б) *Выполнить предыдущее задание, оформив вычисления расстояния между точками в виде метода.
+         */
         public void TaskThree()
         {
             Console.WriteLine("Enter x1");
@@ -67,7 +82,11 @@ namespace Labs
             return Math.Sqrt(Math.Pow(x2 - x1, 2) + Math.Pow(y2 - y1, 2));
         }
 
-
+        /*
+           4. Написать программу обмена значениями двух переменных типа int без использования вспомогательных методов.
+           а) с использованием третьей переменной;
+           б) *без использования третьей переменной.
+        */
         public void TaskFour()
         {
             var a = 1;
