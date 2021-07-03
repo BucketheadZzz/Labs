@@ -51,7 +51,6 @@ namespace Labs
             Console.WriteLine($"BMI: {result}");
         }
 
-
         /*
          * 3. 
            а) Написать программу, которая подсчитывает расстояние между точками с координатами x1, y1 и x2,y2 по формуле r=Math.Sqrt(Math.Pow(x2-x1,2)+Math.Pow(y2-y1,2). Вывести результат, используя спецификатор формата .2f (с двумя знаками после запятой);
@@ -75,7 +74,6 @@ namespace Labs
 
             Console.WriteLine($"The distance between 2 points: {result:f2}");
         }
-
 
         private double DistanceBetweenTwoPoints(double x1, double y1, double x2, double y2)
         {
