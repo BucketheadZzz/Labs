@@ -92,7 +92,6 @@ namespace Labs
         {
             const int maxAttempts = 3;
           
-
             var currentAttemptsCount = 0;
             var loginSuccess = false;
             do
