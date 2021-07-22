@@ -10,6 +10,7 @@ namespace Labs
         private static readonly Lab3.Lab3 lab3 = new Lab3.Lab3();
         private static readonly Lab4 lab4 = new Lab4();
         private static readonly Lab5.Lab5 lab5 = new Lab5.Lab5();
+        private static readonly Lab7 lab7 = new Lab7();
 
         private static readonly IDictionary<string, Action> listOfTasks = new Dictionary<string, Action>
         {
@@ -35,6 +36,9 @@ namespace Labs
             {"5-1", lab5.TaskOne},
             {"5-2", lab5.TaskTwo},
             {"5-3", lab5.TaskThree},
+
+            {"7-1", lab7.TaskOne},
+            {"7-2", lab7.TaskTwo}
 
         };
 
