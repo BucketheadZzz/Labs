@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Windows.Forms;
 
 namespace Lab7
@@ -12,7 +11,6 @@ namespace Lab7
             {FormType.GuessNumber, new GuessNumber()}
         };
 
-        [STAThread]
         public static void RunTask(FormType type)
         {
             Application.SetHighDpiMode(HighDpiMode.SystemAware);
