@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Lab7
+namespace Lab7.Doubler
 {
     public class DoublerProcessor
     {

@@ -7,8 +7,8 @@ namespace Lab7
     {
         private static readonly IDictionary<FormType, IBaseForm> forms = new Dictionary<FormType, IBaseForm>
         {
-            {FormType.Doubler, new Doubler()},
-            {FormType.GuessNumber, new GuessNumber()}
+            {FormType.Doubler, new Doubler.Doubler()},
+            {FormType.GuessNumber, new GuessNumber.GuessNumber()}
         };
 
         public static void RunTask(FormType type)

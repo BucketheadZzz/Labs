@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Windows.Forms;
 
-namespace Lab7
+namespace Lab7.Doubler
 {
     public partial class Doubler : Form
     {

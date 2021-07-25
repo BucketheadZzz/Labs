@@ -1,7 +1,5 @@
 ﻿
-using System.Windows.Forms;
-
-namespace Lab7
+namespace Lab7.Doubler
 {
     partial class Doubler : IBaseForm
     {
