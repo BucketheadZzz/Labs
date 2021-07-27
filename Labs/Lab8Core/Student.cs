@@ -1,5 +1,8 @@
-﻿namespace Labs.Lab6
+﻿using System;
+
+namespace Lab8Core
 {
+    [Serializable]
     public class Student
     {
         public string LastName { get; set; }
@@ -11,6 +14,11 @@
         public int Group { get; set; }
         public string City { get; set; }
         public int Age { get; set; }
+
+        //A serializable class needs to have a parameterless ctor
+        public Student()
+        {
+        }
 
         public Student(string firstName, string lastName, string university, string faculty, string department, int course, int age, int group, string city)
         {
@@ -25,5 +33,9 @@
             City = city;
         }
 
+        public override string ToString()
+        {
+            return $"{FirstName},{LastName},{University},{Faculty},{Department},{Course},{Age},{Group},{City}";
+        }
     }
 }

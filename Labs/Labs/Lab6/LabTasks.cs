@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
+using Lab8Core;
 
 namespace Labs.Lab6
 {
