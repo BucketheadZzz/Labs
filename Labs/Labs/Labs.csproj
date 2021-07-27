@@ -10,4 +10,10 @@
     <ProjectReference Include="..\Lab7\Lab7.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Update="Lab6\students.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>
